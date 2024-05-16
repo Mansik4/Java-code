@@ -1,0 +1,22 @@
+package handling;
+
+public class exp7 {
+
+		int x;
+		public exp7() {
+			System.out.println("default constructor......");
+		}
+		public exp7(int y) {
+			System.out.println("one parameter constructor......"+y);
+		}
+		public exp7(double a, double b) {
+			System.out.println("string is...."+a+""+b);
+		}
+		public static void main(String[] args) {
+			exp7 ob1=new exp7();
+			exp7 ob2=new exp7(22);
+			exp7 ob3=new exp7(4.1,2.3);
+			
+	}
+
+}
