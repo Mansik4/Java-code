@@ -1,0 +1,30 @@
+package overloading;
+
+public class Exp4 {
+	public void add() {
+		int c=12+19;
+		System.out.println("additon of c is"+c);
+		return;
+	}
+	public void add(int a,int b) {
+		int c=a+b;
+		System.out.println("additon of c is"+c);
+		return;
+	}
+	public void add(double a,double b) {
+		double c=a+b;
+		System.out.println("additon of c is"+c);
+		return;
+	}
+
+	public static void main(String[] args) {
+		Exp4 ob=new Exp4();
+		ob.add();
+		Exp4 ob1=new Exp4();
+		ob1.add(1,2);
+		Exp4 ob2=new Exp4();
+		ob2.add(1.1,7.8);
+	
+	}
+
+}
