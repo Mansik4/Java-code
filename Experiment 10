@@ -1,0 +1,28 @@
+package abtract;
+
+public class child extends Exp10 {
+public void m1() {
+	System.out.println(" m1 method...");
+}
+
+}
+package abtract;
+
+public abstract class Exp10 {
+	abstract void m1();
+	public void m2() {
+		System.out.println("m2 method..");
+	}
+
+}
+package abtract;
+
+public class main_abs {
+
+	public static void main(String[] args) {
+	   child obj=new child();
+	   obj.m1();
+	   obj.m2();
+	   }
+
+}
