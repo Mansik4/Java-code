@@ -1,0 +1,26 @@
+package constructor;
+
+public class Exp7 {
+
+	Exp7(){
+		System.out.println("this is default constructor");
+	}
+	Exp7(int x){
+		System.out.println("1st parameter constructor......"+x);
+	}
+	Exp7(int x,int y){
+		System.out.println("2nd parameter constructor..."+x+" " +y);
+	}
+	Exp7(String name){
+		System.out.println("this is default constructor..."+name);
+	}
+
+	public static void main(String[] args) {
+		Exp7 obj=new Exp7();
+		Exp7 obj1=new Exp7(44);
+		Exp7 obj2=new Exp7(44,88);
+		Exp7 obj3=new Exp7("mansi");
+        
+	}
+
+}
