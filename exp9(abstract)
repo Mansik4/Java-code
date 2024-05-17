@@ -1,0 +1,29 @@
+package S1batch;
+
+public abstract class Expt9 {
+
+abstract void m1();
+
+public void m2(){
+
+System.out.println("m2 method");
+}
+}
+package S1batch;
+
+public class Main_abs{
+
+public static void main(String[] args) {
+Expt9_child obj = new Exptg_child();
+obj.m1();
+obj1.m2();
+}
+}
+
+package S1batch;
+
+public class Expt9_child extendsExpt9_child{
+
+public void m2();
+System. out .println ("m1 method");
+}
