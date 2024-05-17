@@ -1,0 +1,40 @@
+package batch;
+public class Main_Inheritance {
+public static void main(String[ ] args){
+
+//child obj = new child();  
+Gchild obj = new Gchild();
+// Parent obj = new Parent(); 
+//Parent obj = new child(); 
+// child obj = new parent();
+
+obj. car();
+obj cycle),
+obj. house();
+
+obj.e-cyclel();
+}
+}
+package batch;
+public class Gchild extends child { 
+public void e-cycle();
+System.out println ("e-cycle")";
+ }
+}
+
+package batch;
+
+public class extends parent {
+ public void cycle(){ 
+System.out println (" cycle");
+}
+}
+package batch;
+public class Parent{
+public void house() {
+System. out.println(“house”) ;
+}
+public void car() {
+System. out. println(“car”) ;
+}
+}
