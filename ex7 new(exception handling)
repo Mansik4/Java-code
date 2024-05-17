@@ -1,0 +1,26 @@
+Package exceptionhandle;
+
+public class Ex7 {
+
+public static void main(String[] args) {
+
+try {
+
+int x=44;
+
+int y=x/44;
+
+System.out.println(y);
+
+int h[]= {11,22};
+
+h[2]=44;
+
+}
+
+catch(RuntimeException obj) {
+}
+
+}
+
+System.out.println("indexing is wrong"); }
