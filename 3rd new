@@ -1,0 +1,35 @@
+package sort;
+
+import java.util.Scanner;
+
+public class exp3 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the size of array:");
+		int n=sc.nextInt();
+		int i,j;
+		String Array[]=new String[n];
+		for(i=0;i<n;i++)
+		{
+			System.out.println("enter the array:");
+		   Array[i]=sc.nextLine();
+		}
+		for(i=0;i<n-1;i++)
+		{
+			for(j=0;j<n-1-1;j++) {
+				if(Array[j].compareTo(Array[j+1])>0) {
+			        String temp= Array[j];
+					Array[j]=Array[j+1];
+					Array[j+1]=temp;
+				}
+			}
+		}
+		System.out.println("sorted array");
+		for(i=0;i<n;i++) {
+			System.out.println(Array[i]);
+		}
+		
+		}
+
+}
